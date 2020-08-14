@@ -381,16 +381,6 @@ class FloatingAction extends Component {
       if (overrideWithAction) {
         animatedViewStyle = {};
       }
-    } else if (active) {
-      animatedVisibleView = {};
-
-      animatedViewStyle = {
-        transform: [
-          {
-            rotate: "45deg"
-          }
-        ]
-      };
     } else {
       animatedVisibleView = {};
 
